@@ -99,6 +99,30 @@
     ],
     "description": "Base class-style API for Vue.js File with TypeScript"
   },
+  "Class-style API Vue using vue-property-decorator (SFC)": {
+    "prefix": "vcspdbase",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "\timport { Vue, Component } from \"vue-property-decorator\";",      
+      "",
+      "\t@Component({})",
+      "\texport default class ${1:App} extends Vue {",
+      "\t\t${0}",
+      "\t};",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base class-style API for Vue.js File with TypeScript"
+  },
   "Class-style API Vue extending Props (SFC)": {
     "prefix": "vcsibase",
     "body": [
